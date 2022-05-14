@@ -42,7 +42,7 @@ Applications are authorized to call APIs when they are granted permissions by us
 
 **(2) Select Azure Service Management**<br>
 <br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_6.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_6.png" width="320">
 <br>
 
 **(3) Check user_impersonation and add permission**<br>
