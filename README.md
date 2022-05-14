@@ -66,6 +66,9 @@ https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_i
 You can decide to allow apps to access your API or not thru this window.<br>
 If you did it, the access token will be given.<br>
 
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_10.png" width="480">
+<br>
+
 **(3) Access with the string**<br>
 If you access get succeed then, you are brought to a distinct URL like below.<br>
 The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.<br><br>
