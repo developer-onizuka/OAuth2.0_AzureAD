@@ -63,7 +63,7 @@ https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_i
 ```
 
 **(2) Accept permission request**<br>
-You can decide to allow apps to access your API or not thru this window.<br>
+You can accept to allow apps to access your API or not thru this window.<br>
 If you did it, the access token will be given.<br>
 
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_10.png" width="240">
@@ -93,7 +93,7 @@ https://github.com/developer-onizuka/istioAuth0#7-access-with-bearer-token
 
 
 # 7. Get a token by using C# (App code associated with API)
-Consider my URL (https://onprem.example.com) is a one of APIs which gives subscribers the json as a subscription.<br>
+Consider my URL (https://onprem.example.com) is a one of APIs which serves subscribers the json as a subscription.<br>
 You could get some tokens to access some API servers such as https://openweathermap.org/ so that you can start your own SaaS businesses.<br>
 
 > https://github.com/developer-onizuka/What_is_AzureAD#get-a-token-by-using-c
