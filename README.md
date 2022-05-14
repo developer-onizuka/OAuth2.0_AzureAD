@@ -57,6 +57,6 @@ https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_i
 
 **(2) Access with the string**
 If you access get succeed then, you are brought to a distinct URL like below.<br>
-The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.
+The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_9.png" width="480">
 <br>
