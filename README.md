@@ -57,7 +57,7 @@ Applications are authorized to call APIs when they are granted permissions by us
 
 # 4. Get Access Token from AzureAD
 
-**(1) Create the following string from your TenantID, ClientID and URI which you copyed above.**
+**(1) Create the following string from your TenantID, ClientID and URI which you copied above.**
 ```
 https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_id=<Your ClientID>&response_type=token&redirect_uri=https%3A%2F%2Fonprem.example.com&state=12345&scope=https%3A%2F%2Fmanagement.azure.com%2Fuser_impersonation
 ```
@@ -87,3 +87,10 @@ $ kubectl apply -f nginx-onprem-azureAD.yaml
 You can access the redirect URL which you specified in the previous step, but you can refer to the steps below:
 
 https://github.com/developer-onizuka/istioAuth0#7-access-with-bearer-token
+
+
+# 7. Get a token by using C# (App code associated with API)
+Consider my URL (https://onprem.example.com) is a one of APIs which gives subscribers the json as a subscription.<br>
+You could get some tokens to access some API servers such as https://openweathermap.org/ so that you can start your own SaaS businesses.<br>
+
+> https://github.com/developer-onizuka/What_is_AzureAD#get-a-token-by-using-c
