@@ -47,3 +47,10 @@ Applications are authorized to call APIs when they are granted permissions by us
 <br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_8.png" width="480">
 <br>
+
+# 4. Get Access Token from AzureAD
+
+**(1) Create the following string from your TenantID, ClientID and URI which you copyed above.**
+```
+https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_id=<Your ClientID>&response_type=token&redirect_uri=https%3A%2F%2Fonprem.example.com&state=12345&scope=https%3A%2F%2Fmanagement.azure.com%2Fuser_impersonation
+```
