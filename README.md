@@ -1,5 +1,8 @@
 # OAuth2.0_AzureAD
 
+This is a one of the usages widh AzureAD's OAuth2.0 instead of using Auth0.<br>
+See also https://github.com/developer-onizuka/istioAuth0.
+
 # 1. App registration in AureAD
 
 
