@@ -61,10 +61,18 @@ The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_9.png" width="720">
 <br>
 
-# 5. Setup istio Gateway
+# 5. Setup istio IngressGateway
 
+```
+$ git clone https://github.com/developer-onizuka/OAuth2.0_AzureAD
+$ vi azureAD-jwt-onprem.yaml
+ You should edit some lines instead of using <yourTenantID> and also edit the email which you use in AzureAD as the authentication.
 
+$ kubectl apply -f azureAD-jwt-onprem.yaml
+$ kubectl apply -f nginx-onprem-azureAD.yaml
+```
 
-
+# 6. Access the Redirect
+You can access the redirect URL which you specified in the previous step, but you can refer to the steps below:
 
 https://github.com/developer-onizuka/istioAuth0#7-access-with-bearer-token
