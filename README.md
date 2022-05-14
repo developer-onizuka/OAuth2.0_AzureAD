@@ -38,7 +38,7 @@ Applications are authorized to call APIs when they are granted permissions by us
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_6.png" width="480">
 <br>
 
-**(3) Check user_impersonation**<br>
+**(3) Check user_impersonation and add permission**<br>
 <br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_7.png" width="480">
 <br>
