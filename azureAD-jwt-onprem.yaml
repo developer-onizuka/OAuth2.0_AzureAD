@@ -1,0 +1,27 @@
+apiVersion: security.istio.io/v1beta1
+kind: RequestAuthentication
+metadata:
+  name: require-azuread-jwt
+spec:
+  selector:
+    matchLabels:
+      require-azuread: enabled
+  jwtRules:
+  - issuer: https://sts.windows.net/<yourTenantID>/
+    jwksUri: https://login.microsoftonline.com/<yourTenantID>/discovery/v2.0/keys
+---
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: onprem-policy
+  labels:
+    app: onprem
+spec:
+  selector:
+    matchLabels:
+      require-azuread: enabled
+  action: ALLOW
+  rules:
+  - when:
+    - key: request.auth.claims[email]
+      values: ["email@example.com"]
