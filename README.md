@@ -72,7 +72,7 @@ $ kubectl apply -f azureAD-jwt-onprem.yaml
 $ kubectl apply -f nginx-onprem-azureAD.yaml
 ```
 
-# 6. Access the Redirect
+# 6. Access to the Redirect URL
 You can access the redirect URL which you specified in the previous step, but you can refer to the steps below:
 
 https://github.com/developer-onizuka/istioAuth0#7-access-with-bearer-token
