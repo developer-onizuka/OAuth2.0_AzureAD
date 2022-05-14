@@ -29,6 +29,7 @@ A redirect URI, or reply URL, is the location where the authorization server sen
 Applications are authorized to call APIs when they are granted permissions by users/admins as part of the consent process. <br>
 
 **(1) Push add a permission button**<br>
+<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_5.png" width="480">
 <br>
 
