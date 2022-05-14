@@ -60,3 +60,11 @@ If you access get succeed then, you are brought to a distinct URL like below.<br
 The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.<br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_9.png" width="720">
 <br>
+
+# 5. Setup istio Gateway
+
+
+
+
+
+https://github.com/developer-onizuka/istioAuth0#7-access-with-bearer-token
