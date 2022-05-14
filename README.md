@@ -1,8 +1,8 @@
 # OAuth2.0_AzureAD
 
-This is a one of the examples widh AzureAD's OAuth2.0 function instead of using Auth0.<br>
+This is a one of the examples widh AzureAD's OAuth2.0 function instead of using Auth0.
 See also https://github.com/developer-onizuka/istioAuth0.<br>
-Consider my URL (https://onprem.example.com) which I am using in this repository is a one of APIs which serves subscribers the json as a subscription.<br>
+Consider my URL (https://onprem.example.com) which I am using in this repository is a one of APIs which serves subscribers the json as a subscription.
 You could get some tokens to access some API servers such as https://openweathermap.org/ so that you can start your own SaaS businesses with some public API.
 
 # 1. App registration in AureAD
