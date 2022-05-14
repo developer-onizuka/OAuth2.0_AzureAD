@@ -55,8 +55,8 @@ Applications are authorized to call APIs when they are granted permissions by us
 https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_id=<Your ClientID>&response_type=token&redirect_uri=https%3A%2F%2Fonprem.example.com&state=12345&scope=https%3A%2F%2Fmanagement.azure.com%2Fuser_impersonation
 ```
 
-**(2) Access with the string**
+**(2) Access with the string**<br>
 If you access get succeed then, you are brought to a distinct URL like below.<br>
-The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.<br>
+The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.<br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_9.png" width="720">
 <br>
