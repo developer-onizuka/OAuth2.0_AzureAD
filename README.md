@@ -34,11 +34,16 @@ Applications are authorized to call APIs when they are granted permissions by us
 <br>
 
 **(2) Select Azure Service Management**<br>
+<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_6.png" width="480">
 <br>
 
+**(3) Check user_impersonation**<br>
+<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_7.png" width="480">
 <br>
 
+**(4) Copy URI**<br>
+<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_8.png" width="480">
 <br>
