@@ -10,13 +10,17 @@
 # 2. Define Redirect URI
 A redirect URI, or reply URL, is the location where the authorization server sends the user once the app has been successfully authorized and granted an authorization code or access token.<br>
 
-**(1) Select Authentication**
+**(1) Select Authentication**<br>
+
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_2.png" width="480">
 <br>
 
-**(2) Push add platform button**
+**(2) Push add platform button**<br>
+
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_3.png" width="480">
 <br>
+
+**(3) Set the Redirect URI**<br>
 
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="480">
 <br>
