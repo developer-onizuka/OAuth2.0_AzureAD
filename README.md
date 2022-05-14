@@ -26,7 +26,7 @@ A redirect URI, or reply URL, is the location where the authorization server sen
 **(3) Set the Redirect URI**<br>
 Please note I am using the Implicit Grant(RFC6749#4.2) of Auth2.0. You might use the Authorization Code Grant of cource(RFC6749#4.1).<br>
 See also followings:<br>
-> https://www.youtube.com/watch?v=PKPj_MmLq5E
+> https://www.youtube.com/watch?v=PKPj_MmLq5E <br>
 > https://datatracker.ietf.org/doc/html/rfc6749
 
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="480">
