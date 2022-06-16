@@ -59,7 +59,7 @@ Applications are authorized to call APIs when they are granted permissions by us
 
 **(1) Create the following string from your TenantID, ClientID and URI which you copied above.**
 ```
-https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_id=<Your ClientID>&response_type=token&redirect_uri=https%3A%2F%2Fonprem.example.com&state=12345&scope=https%3A%2F%2Fmanagement.azure.com%2Fuser_impersonation
+https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_id=<Your ClientID>&response_type=token&redirect_uri=https%3A%2F%2Fonprem.example.com&state=12345&scope=api%3A%2F%2FXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/file.read
 ```
 
 **(2) Accept permission request**<br>
