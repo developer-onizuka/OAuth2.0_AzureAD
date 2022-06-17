@@ -15,7 +15,7 @@ A redirect URI, or reply URL, is the location where the authorization server sen
 
 **(1) Select Authentication**<br>
 
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_2.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_2.png" width="640">
 <br>
 
 **(2) Push add a platform button**<br>
