@@ -32,7 +32,15 @@ See also followings:<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="480">
 <br>
 
-# 3. API permission
+# 3. Resource server registration
+Register the resource server with Azure AD. In Azure AD, the resource server must also be registered as an "application".
+<br>
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_13.png" width="480">
+<br>
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_14.png" width="480">
+<br>
+
+# 4. API permission
 Applications are authorized to call APIs when they are granted permissions by users/admins as part of the consent process. <br>
 
 **(1) Push add a permission button**<br>
@@ -43,20 +51,15 @@ Applications are authorized to call APIs when they are granted permissions by us
 **(2) Select Azure Service Management**<br>
 Select My API.<br>
 <br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_6.png" width="320">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_11.png" width="320">
 <br>
 
-**(3) Check user_impersonation and add permission**<br>
+**(3) Check files.read and add permission**<br>
 <br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_7.png" width="480">
-<br>
-
-**(4) Copy URI**<br>
-<br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_8.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_12.png" width="480">
 <br>
 
-# 4. Get Access Token from AzureAD
+# 5. Get Access Token from AzureAD
 
 **(1) Create the following string from your TenantID, ClientID and URI which you copied above.**
 ```
@@ -76,7 +79,7 @@ The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_9.png" width="720">
 <br>
 
-# 5. Setup istio IngressGateway
+# 6. Setup istio IngressGateway
 
 ```
 $ git clone https://github.com/developer-onizuka/OAuth2.0_AzureAD
@@ -87,13 +90,13 @@ $ kubectl apply -f azureAD-jwt-onprem.yaml
 $ kubectl apply -f nginx-onprem-azureAD.yaml
 ```
 
-# 6. Access to the Redirect URL
+# 7. Access to the Redirect URL
 You can access the redirect URL which you specified in the previous step, but you can refer to the steps below:
 
 https://github.com/developer-onizuka/istioAuth0#7-access-with-bearer-token
 
 
-# 7. Get a token by using C# (App code associated with API)
+# 8. Get a token by using C# (App code associated with API)
 Consider my URL (https://onprem.example.com) is a one of APIs which serves subscribers the json as a subscription.<br>
 You could get some tokens to access some API servers such as https://openweathermap.org/ so that you can start your own SaaS businesses.<br>
 
