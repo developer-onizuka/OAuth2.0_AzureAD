@@ -62,7 +62,7 @@ Select My API.<br>
 
 **(3) Check files.read and add permission**<br>
 Copy API connection string which is used in order to get access token in #5.
-<br>
+<br><br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_12.png" width="640">
 <br>
 
