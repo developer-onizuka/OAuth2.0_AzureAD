@@ -41,6 +41,7 @@ Applications are authorized to call APIs when they are granted permissions by us
 <br>
 
 **(2) Select Azure Service Management**<br>
+Select My API.<br>
 <br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_6.png" width="320">
 <br>
