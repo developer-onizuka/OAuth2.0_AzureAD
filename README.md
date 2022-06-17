@@ -33,7 +33,8 @@ See also followings:<br>
 <br>
 
 # 3. Resource server registration
-Register the resource server with Azure AD. In Azure AD, the resource server must also be registered as an "application".
+Register the resource server with Azure AD. In Azure AD, the resource server must also be registered as an "application".<br>
+In my case, I created it as "resource" as you can see below:
 <br><br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_15.png" width="640">
 <br><br><br>
