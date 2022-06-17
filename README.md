@@ -20,7 +20,7 @@ A redirect URI, or reply URL, is the location where the authorization server sen
 
 **(2) Push add a platform button**<br>
 Select Web.<br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_3.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_3.png" width="640">
 <br>
 
 **(3) Set the Redirect URI**<br>
@@ -29,7 +29,7 @@ See also followings:<br>
 > https://www.youtube.com/watch?v=PKPj_MmLq5E <br>
 > https://datatracker.ietf.org/doc/html/rfc6749
 
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="640">
 <br>
 
 # 3. Resource server registration
@@ -43,7 +43,7 @@ Defines the URI of the application ID. Apparently this is like a prefix that uni
 <br><br>
 Set each parameter as below:
 <br><br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_14.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_14.png" width="640">
 <br><br>
 
 # 4. API permission
@@ -51,18 +51,18 @@ Applications are authorized to call APIs when they are granted permissions by us
 
 **(1) Push add a permission button**<br>
 <br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_5.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_5.png" width="640">
 <br>
 
 **(2) Select Azure Service Management**<br>
 Select My API.<br>
 <br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_11.png" width="320">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_11.png" width="640">
 <br>
 
 **(3) Check files.read and add permission**<br>
 <br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_12.png" width="480">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_12.png" width="640">
 <br>
 
 # 5. Get Access Token from AzureAD
@@ -76,7 +76,7 @@ https://login.microsoftonline.com/<Your TenantID>/oauth2/v2.0/authorize?client_i
 You can accept to allow apps to access your API or not thru this window.<br>
 If you did it, the access token will be given.<br>
 
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_10.png" width="240">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_10.png" width="640">
 <br>
 
 **(3) Access with the string**<br>
