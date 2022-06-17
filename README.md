@@ -38,7 +38,9 @@ Register the resource server with Azure AD. In Azure AD, the resource server mus
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_13.png" width="640">
 <br><br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_14.png" width="480">
-<br>
+<br><br><br>
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_15.png" width="480">
+<br><br><br>
 
 # 4. API permission
 Applications are authorized to call APIs when they are granted permissions by users/admins as part of the consent process. <br>
