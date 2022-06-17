@@ -82,7 +82,7 @@ If you did it, the access token will be given.<br>
 **(3) Access with the string**<br>
 If you access get succeed then, you are brought to a distinct URL like below.<br>
 The URL contains the access token of OAuth2.0. Retrive it and keep it as secret.<br><br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_9.png" width="720">
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_9.png" width="640">
 <br>
 
 # 6. Setup istio IngressGateway
