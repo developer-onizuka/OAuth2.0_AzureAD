@@ -41,6 +41,8 @@ Defines the URI of the application ID. Apparently this is like a prefix that uni
 <br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_13.png" width="640">
 <br><br>
+Set each parameter as below:
+<br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_14.png" width="480">
 <br><br>
 
