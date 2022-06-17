@@ -35,9 +35,9 @@ See also followings:<br>
 # 3. Resource server registration
 Register the resource server with Azure AD. In Azure AD, the resource server must also be registered as an "application".<br>
 In my case, I created it as a named "resource" as shown below:
-<br><br><br>
-<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_15.png" width="640">
 <br><br>
+<img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_15.png" width="640">
+<br><br><br>
 Defines the URI of the application ID. Apparently this is like a prefix that uniquely identifies the scope across Azure AD around the world. The application ID seems to have to be a unique value across Azure AD around the world, and the one displayed by default already meets that requirement, so just click Save and Continue.
 <br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_13.png" width="640">
