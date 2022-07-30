@@ -32,8 +32,8 @@ See also followings:<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="640">
 <br>
 
-# 3. Resource server registration
-Register the resource server with Azure AD. In Azure AD, the resource server must also be registered as an "application" in addition to App registration above. In my case, I created it as a named "resource" as shown below:
+# 3. Authorization Endpoint
+Register the Authorization Endpoint with Azure AD. In Azure AD, the Authorization Endpoint must also be registered as an "application" in addition to App registration above. The Authorization Endpoint is associated with my employee2 app. The Authorization Endpoint provides Access Token (Bearer token) which can play role of scope you define in next step. In my case, I created it as a named "resource" as shown below:
 <br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_15.png" width="640">
 <br><br>
