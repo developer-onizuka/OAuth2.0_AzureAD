@@ -98,7 +98,8 @@ $ kubectl apply -f nginx-onprem-azureAD.yaml
 ```
 
 # 7. Access to the Redirect URL
-You can access the redirect URL which you specified in the previous step, but you can refer to the steps below:
+You can access the redirect URL which you specified in the previous step, but you can refer to the steps below:<br>
+You can use Modheader so that you can set Bearer token in google-chrome.
 
 https://github.com/developer-onizuka/istioAuth0#7-access-with-bearer-token
 
