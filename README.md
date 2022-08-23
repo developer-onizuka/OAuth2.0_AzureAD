@@ -10,8 +10,8 @@ Consider my URL (https://onprem.example.com) which I am using as the redirect UR
 <br>
 
 
-# 2. Define Redirect URI
-A redirect URI, or reply URL, is the location where the authorization server sends the user once the app has been successfully authorized and granted an authorization code or access token.<br>
+# 2. Authorization Endpoint
+You need to define a redirect URI to create authorization endpoint. The redirect URI, or reply URL, is the location where the authorization server sends the user once the app has been successfully authorized and granted an authorization code or access token.<br>
 
 **(1) Select Authentication**<br>
 
@@ -32,8 +32,8 @@ See also followings:<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="640">
 <br>
 
-# 3. Authorization Endpoint
-Register the Authorization Endpoint in Azure AD in addition to App registration above. In Azure AD, the Authorization Endpoint must also be registered as an "application" in addition to App registration above. The Authorization Endpoint is associated with my employee2 app. The Authorization Endpoint provides Access Token (Bearer token) which can play role of scope you define in next step. In my case, I created it as a named "resource" as shown below:
+# 3. Create Scope
+Creat a scope in Azure AD in addition to Autorization Endpoint above. The scope is associated with my employee2 app. In my case, I created it as a named "resource" as shown below:
 <br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_15.png" width="640">
 <br><br>
