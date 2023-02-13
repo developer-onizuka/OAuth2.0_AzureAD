@@ -32,7 +32,7 @@ See also followings:<br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_4.png" width="640">
 <br>
 
-# 3. Create Scope
+# 3. Create Scope (RBAC)
 Creat a scope in Azure AD in addition to Autorization Endpoint above. The scope is associated with my employee2 app. In my case, I created it as a named "resource" as shown below:
 <br><br>
 <img src="https://github.com/developer-onizuka/OAuth2.0_AzureAD/blob/main/OAuth2.0_AzureAD_15.png" width="640">
